@@ -12,7 +12,7 @@
     "install-travis": "npm install",
     "test-travis": "ng test --watch false",
     "build-travis": "ng build --prod",
-    "postinstall": "ng build --aot"
+    "postinstall": "ng build --dev"
   },
   "private": true,
   "dependencies": {
