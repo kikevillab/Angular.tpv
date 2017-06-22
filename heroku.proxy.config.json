@@ -1,0 +1,12 @@
+{
+  "/api/*": {
+    "target": "http://miw-upm-tpv.herokuapp.com",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/assets/*": {
+    "target": "http://angular-tpv.herokuapp.com",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
