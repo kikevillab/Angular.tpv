@@ -1,1 +1,1 @@
-web: ng serve --proxy-config heroku.proxy.config.json
+web: node server.js
